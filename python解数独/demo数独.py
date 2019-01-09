@@ -14,10 +14,11 @@ origin = [[8, 0, 0, 0, 0, 0, 0, 0, 0],
 
 class sudoku:
     def debug(self):  # 调试
-       # for list in origin:
+        # for list in origin:
         #    print(list)
-        #print("\n")
-        cccc = 0
+        # print("\n")
+        #
+        pass
     def check_repetition(self,list):#判断表中是否有重复值，0除外
         flag=0
         for i in range(1,10):
