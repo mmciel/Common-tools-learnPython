@@ -3,6 +3,7 @@ import imageio
 import shutil
 from PIL import Image,ImageDraw,ImageFont
 
+
 SOURCE_PATH = '.\\test.jpg'
 OUTPUT_PATH = '.\\imgs\\'
 FRAMES_PATH = '.\\outing\\'
