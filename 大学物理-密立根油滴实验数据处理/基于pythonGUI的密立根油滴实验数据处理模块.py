@@ -10,7 +10,7 @@ class FindLocation(object):
         self.root = tkinter.Tk()
         self.root.geometry('600x450')
         # 给主窗口设置标题内容
-        self.root.title("密立根油滴实验数据处理程序 V1.1 ———————— by：mmciel")
+        self.root.title(" 密立根油滴实验数据处理程序 V1.1 ———————— by：mmciel")
         self.lab1 = tkinter.Label(text='电压(V)')
         self.lab2 = tkinter.Label(text='时间(s)')
         self.lab3 = tkinter.Label(text='使用说明：\n1.连续输入六组数据，最后一组数据计算成功之后自动计算误差\n2.小数点请使用英文状态下标点\n3.提示数据异常请按照要求操作，否则误差和均值计算数据异常')
