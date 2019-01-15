@@ -17,7 +17,6 @@ class sudoku:
         # for list in origin:
         #    print(list)
         # print("\n")
-        #
         pass
     def check_repetition(self,list):#判断表中是否有重复值，0除外
         flag=0
