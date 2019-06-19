@@ -4,12 +4,11 @@ import shutil
 from PIL import Image,ImageDraw,ImageFont
 
 
-SOURCE_PATH = '.\\test.jpg'
+SOURCE_PATH = '.\\test.gif' # get file
 OUTPUT_PATH = '.\\imgs\\'
 FRAMES_PATH = '.\\outing\\'
 
 def create_dir():
-    #初始化目录
     path1 = os.path.exists(OUTPUT_PATH)
     path2 = os.path.exists(FRAMES_PATH)
     dir0 = os.getcwd()
@@ -42,7 +41,7 @@ def processImage(path):
         print("wait...")
 
 def createImg(path):
-    str =  '''@B%8&WM#*oahk567489564565631bdpqwmZO0QLC`'. '''
+    str =  '''@B%8&W..*oahk567489564565631bdpqwmZO0QLC`'. '''
 
     progress = 0
     unit = len(os.listdir(OUTPUT_PATH))/100
@@ -81,7 +80,7 @@ if __name__ == "__main__":
     create_dir()
     processImage(SOURCE_PATH)
     createImg(OUTPUT_PATH)
-    creat_gif(FRAMES_PATH,"QAQ.jpg")
+    creat_gif(FRAMES_PATH,"QAQ.gif")
 
 
 
